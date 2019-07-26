@@ -1,0 +1,75 @@
+* {
+    dark-primary-color    : #5D4037; 
+    default-primary-color : #795548; 
+    light-primary-color   : #D7CCC8; 
+    text-primary-color    : #FFFFFF; 
+    accent-color          : #FF5722; 
+    primary-text-color    : #212121; 
+    secondary-text-color  : #757575; 
+    divider-color         : #BDBDBD; 
+
+}
+
+.root {
+    -fx-background-color: default-primary-color;
+}
+
+.tab {
+    -fx-background-color: accent-color;
+    -fx-text-fill: text-primary-color;
+    -fx-effect: dropshadow(one-pass-box, divider-color, 14, 0.0, 6, 0);
+    -fx-background-insets: 0 0 0 5;
+}
+
+.tab-pane .tab:selected
+{
+    -fx-background-color: dark-primary-color;
+}
+.tab .tab-label { 
+    -fx-text-fill: text-primary-color;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.tab-header-background {
+    -fx-background-color: dark-primary-color;
+}
+
+.button {
+    -fx-background-color: accent-color;
+    -fx-text-fill: text-primary-color;
+}
+
+.label {
+    -fx-text-fill: text-primary-color;
+}
+
+.list-view .list-cell:even {
+-fx-background-color: light-primary-color;
+-fx-text-fill: black;
+}
+.list-view .list-cell:odd {
+-fx-background-color: divider-color;
+-fx-text-fill: black;
+}
+.list-view .list-cell:selected {
+    -fx-background-color: accent-color;
+}
+.list-view {
+    -fx-background-color: light-primary-color;
+}
+
+.text-area .content{
+    -fx-background-color: light-primary-color;
+}
+
+.table-view{
+   -fx-background-color: light-primary-color;
+}
+.table-view .column-header .label {
+    -fx-text-fill: secondary-text-color;
+    -fx-font-weight: bold;
+}
+.table-row-cell:selected {
+   -fx-background-color: accent-color; 
+}
