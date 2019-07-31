@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="PlagiarismDetector.jar" size="18064" download="eager" />
+    <jar href="PlagiarismDetector.jar" size="17308" download="eager" />
     <jar href="lib\activation-1.1.1.jar" size="69409" download="eager" />
     <jar href="lib\aopalliance-repackaged-2.5.0-b30.jar" size="14766" download="eager" />
     <jar href="lib\commons-codec-1.12.jar" size="339669" download="eager" />
