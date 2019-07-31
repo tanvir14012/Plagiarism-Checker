@@ -37,7 +37,7 @@ public class IDFPreprocessing {
     private static WordnetStemmer wordnetStemmer;
     private static HashMap<String, Integer> idf;
     private static HashMap<String, Integer> synIdf;
-
+/*
     public static void main(String[] args) throws Exception {
 
         try {
@@ -80,7 +80,7 @@ public class IDFPreprocessing {
             Logger.getLogger(IDFPreprocessing.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+*/
     private static void loadDictionary() throws MalformedURLException, InterruptedException, IOException {
         Path path = Paths.get("dict");
         URL url = new URL("file", null, path.toString());
