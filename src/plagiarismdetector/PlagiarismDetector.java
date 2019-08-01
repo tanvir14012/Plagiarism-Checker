@@ -186,7 +186,7 @@ public class PlagiarismDetector extends Application {
 
         return result2;
     }
-
+/*
     private static List<String> doLemmatization(List<String> words) {
         FileInputStream fileInputStream = null;
         FileInputStream fileInputStream2 = null;
@@ -213,7 +213,7 @@ public class PlagiarismDetector extends Application {
             }
         }
         return words;
-    }
+    }*/
 
     private static HashMap<String, Double> getWordFrequency(List<String> words) {
         HashMap<String, Double> freq = new HashMap<>();
