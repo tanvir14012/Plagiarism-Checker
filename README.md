@@ -1,4 +1,6 @@
 # Plagiarism-Detector
+This application calculates similarity among texts as percenatage to determine if a given text is plagiarized or not.
+
 Plagiarism detection of texts is closely associated with natural language processing methods such as term analysis, filtering, weighting, vector representation of document, similarity measurement etc in most cases. This application focuses on external plagiarism detection systems, having a collection of source documents and a suspected document, the task is to find signs of plagiarism in the suspected document.
 
 Usage:
